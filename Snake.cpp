@@ -1,6 +1,6 @@
 #include <vector>
 #include <iostream>
-#include <conio.h> //By Foxefde
+#include <conio.h> //By MiniStaX
 #include <windows.h>
 #include <ctime>
 
@@ -94,7 +94,7 @@ int Snake::GameOver()
 void Snake::Graphics()
 {
     sp(697); //CHoosing color
-    std::cout << Dollars + Bonus << " Dollars By Foxefde 2013 ";
+    std::cout << Dollars + Bonus << " Dollars By MiniStaX ";
     std::cout << "\n";
     s();
     for(int u = 0;u < 50;u++) //Top border
